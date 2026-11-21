@@ -1,0 +1,13 @@
+# Godot
+.godot/
+*.translation
+export_presets.cfg
+/build/
+
+# Codex image-generation logs (contain local paths)
+art/raw/log_*.txt
+art/raw/last_*.txt
+art/raw/codex_last.txt
+
+# Python
+__pycache__/
