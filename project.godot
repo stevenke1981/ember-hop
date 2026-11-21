@@ -1,0 +1,33 @@
+; Engine configuration file.
+; Ember Hop — Godot 4.7
+
+config_version=5
+
+[application]
+
+config/name="Ember Hop"
+config/description="A lantern spirit hops through a twilight forest collecting fireflies."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+
+Sfx="*res://scripts/sfx.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[physics]
+
+common/physics_ticks_per_second=60
+common/physics_interpolation=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.118, 0.094, 0.22, 1)
